@@ -36,6 +36,7 @@
   <style>
   .boxStyle{
     width: 22% !important;
+    margin-top: 22%;
   }
   
   </style>
@@ -554,12 +555,13 @@
           </div>
           <!-- /.box -->
 
-          <!-- About Me Box -->
-          <div class="box box-primary">
+
+      <!-- About Me Box -->
+      <!--     <div class="box box-primary" >
             <div class="box-header with-border">
               <h3 class="box-title">About Me</h3>
             </div>
-            <!-- /.box-header -->
+            /.box-header
             <div class="box-body">
               <strong><i class="fa fa-book margin-r-5"></i> Education</strong>
 
@@ -591,15 +593,19 @@
 
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum enim neque.</p>
             </div>
-            <!-- /.box-body -->
-          </div>
+            /.box-body
+          </div> -->
           <!-- /.box -->
+
+
         </div>
         <!-- /.col -->
         
-        <!-- Sadhna Health Services  start-->
+        <!-- Above col-md-3 for horizontal tab -->
         
-              <div class="row">
+                <!-- Sadhna Health Services  start-->
+        
+       <div class="row">
         <div class="col-lg-3 col-xs-6 boxStyle">
           <!-- small box -->
           <div class="small-box bg-aqua">
@@ -664,9 +670,10 @@
         
         <!-- Sadhna ealth Services end -->
         
+        
         <!-- Graph for Sadhna starts -->
                   <!-- solid sales graph -->
-          <div class="box box-solid bg-teal-gradient" style="margin-top: -56% !important;width:43%;margin-left:26% !important;height:314px !important;">
+          <div class="box box-solid bg-teal-gradient" style="margin-top: 0% !important;width:43%;margin-left:1% !important;height:314px !important;">
             <div class="box-header">
               <i class="fa fa-th"></i>
 
@@ -711,7 +718,7 @@
         
         <!-- Graph for Sadhna ends -->
         
-        <div class="col-md-9" style="float: right !important;width:75% !important;margin-top:-57%">
+        <div class="col-md-9" style="float: right !important;width:100% !important;margin-top:3%">
           <div class="nav-tabs-custom">
             <ul class="nav nav-tabs">
               <li class="active"><a href="#activity" data-toggle="tab">Activity</a></li>
