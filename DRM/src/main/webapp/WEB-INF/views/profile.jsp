@@ -36,7 +36,7 @@
   <style>
   .boxStyle{
     width: 22% !important;
-    margin-top: 22%;
+    margin-top: 26%;
   }
   
   </style>
