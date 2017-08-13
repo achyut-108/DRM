@@ -39,6 +39,26 @@
     margin-top: 26%;
   }
   
+/* .profile-user-img {
+    margin: 0 auto;
+    width: 100px;
+    padding: 3px;
+    border: 3px solid #d2d6de;
+    margin-left: 0%;
+	}
+.profile-username {
+    font-size: 21px;
+    margin-top: 5px;
+    margin-left: -89%;
+	}
+.text-center {
+    text-align: center;
+    margin-left: -89%;
+} */
+/* .box-body {
+    background-image: url(user40-128x128.jpg);
+    background-repeat: no-repeat;
+} */
   </style>
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
@@ -261,7 +281,7 @@
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img src="resources/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-              <span class="hidden-xs">Alexander Pierce</span>
+              <span class="hidden-xs">Radhanath Swami</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
@@ -269,7 +289,7 @@
                 <img src="resources/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
-                  Alexander Pierce - Web Developer
+                  Radhanath Swami - Web Developer
                   <small>Member since Nov. 2012</small>
                 </p>
               </li>
@@ -317,7 +337,7 @@
           <img src="resources/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Alexander Pierce</p>
+          <p>Radhanath Swami</p>
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
@@ -529,13 +549,13 @@
         <div class="col-md-3">
 
           <!-- Profile Image -->
-          <div class="box box-primary" style="width:430% !important;height: 69% !important;">
+          <div class="box box-primary" style="width:430% !important;height: 69% !important;background-image:resources/dist/img/user40-128x128.jpg">
             <div class="box-body box-profile">
               <img class="profile-user-img img-responsive img-circle" src="resources/dist/img/user4-128x128.jpg" alt="User profile picture">
 
-              <h3 class="profile-username text-center">Nina Mcintire</h3>
+              <h3 class="profile-username text-center">Radhanath Swami</h3>
 
-              <p class="text-muted text-center">Software Engineer</p>
+              <p class="text-muted text-center">Yoga Practitioner and Spiritual Teacher</p>
 
               <ul class="list-group list-group-unbordered">
                 <!-- <li class="list-group-item">
@@ -604,9 +624,23 @@
         <!-- Above col-md-3 for horizontal tab -->
         
                 <!-- Sadhna Health Services  start-->
+        <div class="col-lg-3 col-xs-6 boxStyle1" style="width: 22% !important;margin-top: 27.5%;margin-left: -19%;">
+          <!-- small box -->
+          <div class="small-box bg-yellow" style="background-color: #12f36c !important">
+            <div class="inner">
+              <h3>44</h3>
+              <p>Book Distributed</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-person-add"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        
         
        <div class="row">
-        <div class="col-lg-3 col-xs-6 boxStyle">
+        <div class="col-lg-3 col-xs-6 boxStyle2" style="width: 22% !important;margin-top: 26.5%;margin-left: -1%">
           <!-- small box -->
           <div class="small-box bg-aqua">
             <div class="inner">
@@ -621,7 +655,7 @@
           </div>
         </div>
         <!-- ./col -->
-        <div class="col-lg-3 col-xs-6 boxStyle">
+        <div class="col-lg-3 col-xs-6 boxStyle3" style="width: 22% !important;margin-top: 26.5%;margin-left: -1%">
           <!-- small box -->
           <div class="small-box bg-green">
             <div class="inner">
@@ -636,7 +670,7 @@
           </div>
         </div>
         <!-- ./col -->
-        <div class="col-lg-3 col-xs-6 boxStyle">
+        <div class="col-lg-3 col-xs-6 boxStyle4" style="width: 22% !important;margin-top: 26.5%;margin-left: -1%">
           <!-- small box -->
           <div class="small-box bg-yellow">
             <div class="inner">
@@ -651,6 +685,8 @@
           </div>
         </div>
         <!-- ./col -->
+        
+        
        <!--  <div class="col-lg-3 col-xs-6">
           small box
           <div class="small-box bg-red">
@@ -721,7 +757,9 @@
         <div class="col-md-9" style="float: right !important;width:100% !important;margin-top:3%">
           <div class="nav-tabs-custom">
             <ul class="nav nav-tabs">
-              <li class="active"><a href="#activity" data-toggle="tab">Activity</a></li>
+            <li class="active"><a href="#connections" data-toggle="tab">Connections</a></li>
+              <li><a href="#skills" data-toggle="tab">Skills</a></li>
+              <li><a href="#activity" data-toggle="tab">Activity</a></li>
               <li><a href="#timeline" data-toggle="tab">Timeline</a></li>
               <li><a href="#settings" data-toggle="tab">Settings</a></li>
             </ul>
@@ -811,7 +849,7 @@
                         <div class="col-sm-6">
                           <img class="img-responsive" src="resources/dist/img/photo2.png" alt="Photo">
                           <br>
-                          <img class="img-responsive" src="resources/dist/img/photo3.jpg" alt="Photo">
+                          <img class="img-responsive" src="resources/dist/img/photo4.jpg" alt="Photo">
                         </div>
                         <!-- /.col -->
                         <div class="col-sm-6">
